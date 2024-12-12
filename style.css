@@ -16,8 +16,9 @@ body {
   
   .table-container {
     background-color: white;
-      max-height: 200px;
-      max-width: 600px;
+    width: 80vw;
+    max-width: 41em;
+    max-height: 26em;
       overflow-y: auto;
       border-radius: 12px;
   }
