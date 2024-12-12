@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #eb3317;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+  
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .table-container {
+    background-color: white;
+      max-height: 200px;
+      max-width: 600px;
+      overflow-y: auto;
+      border-radius: 12px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+  }
+  thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f4f4f4;
+    z-index: 1;
+  }
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
