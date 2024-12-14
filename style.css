@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #eb3317;
+    background-color: rgb(80, 120, 300);
     height: 100vh;
     display: grid;
     place-content: center;
@@ -28,12 +28,14 @@ body {
     text-align: center;
     padding: 8px;
   }
+  
   thead th {
     position: sticky;
     top: 0;
     background-color: #f4f4f4;
     z-index: 1;
   }
+
   tbody tr:nth-child(even) {
     background-color: #f9f9f9;
   }
